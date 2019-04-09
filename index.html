@@ -5,17 +5,22 @@ title: London Rationalish Readings
 
 <p><a href="https://github.com/sackeyjason/london-rationalish-readings">Source</a></p>
 
+
 {% for meeting in site.data.list.meetings %}
 <article>
-  <h2>{{ meeting.date | date: "%Y-%m-%d" }}</h2>
-  <ul>
+  <h2>
+    <time datetime="{{ meeting.date | date: "%Y-%b-%d" }}">
+      {{ meeting.date | date: "%Y %B %d" }}
+    </time>
+  </h2>
+  <ol>
   {% for article in meeting.list %}
     <li>
       <h3>{{ article.title }}</h3>
       <a href="{{ article.link }}">{{ article.link }}</a>
     </li>
   {% endfor %}
-  </ul>
+  </ol>
 </article>
 {% endfor %}
 
