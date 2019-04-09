@@ -24,4 +24,6 @@ title: London Rationalish Readings
 </article>
 {% endfor %}
 
-<p>This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</p>
+<p>This page was last updated at
+  <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time>
+</p>
