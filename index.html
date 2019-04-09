@@ -3,10 +3,15 @@ layout: default
 title: London Rationalish Readings
 ---
 
-<a href="https://github.com/sackeyjason/london-rationalish-readings">Source</a>
+<p><a href="https://github.com/sackeyjason/london-rationalish-readings">Source</a></p>
 
 {% for meeting in site.data.list.meetings %}
 <article>
-  {{ meeting.date }}<br>
+  <h2>{{ meeting.date }}</h2>
+  <ul>
+  {% for article in meeting.list %}
+    <li>{{ article }}</li>
+  {% endfor %}
+  </ul>
 </article>
 {% endfor %}
