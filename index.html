@@ -10,7 +10,10 @@ title: London Rationalish Readings
   <h2>{{ meeting.date }}</h2>
   <ul>
   {% for article in meeting.list %}
-    <li>{{ article.title }}</li>
+    <li>
+      <h3>{{ article.title }}</h3>
+      <a href="{{ article.link }}">{{ article.link }}</a>
+    </li>
   {% endfor %}
   </ul>
 </article>
