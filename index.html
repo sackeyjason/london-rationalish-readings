@@ -5,3 +5,9 @@
 <h1>London Rationalish Readings</h1>
 
 <a href="https://github.com/sackeyjason/london-rationalish-readings">Source</a>
+
+{% for meeting in list.meetings %}
+<article>
+  {{ meeting.date }}<br>
+</article>
+{% endfor %}
