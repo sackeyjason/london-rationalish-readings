@@ -1,18 +1,22 @@
 meetings:
 -
-  date: 7 April 2019
+  date: 2019.04.07
   list:
-  - In My Culture
-  - https://medium.com/@ThingMaker/in-my-culture-29c6464072b2
-  - The Humility Argument for Honesty
-  - http://benjaminrosshoffman.com/humility-argument-honesty/
-  - You Should (Probably) Lift Weights 
-  - http://redd.it/9h2jbi
+  - title: In My Culture
+     link: https://medium.com/@ThingMaker/in-my-culture-29c6464072b2
+  - title: The Humility Argument for Honesty
+     link: http://benjaminrosshoffman.com/humility-argument-honesty/
+  - title: You Should (Probably) Lift Weights 
+     link: http://redd.it/9h2jbi
 -
-  date: 24 March 2019
+  date: 2019.03.24
   list:
-  - 1. A Positive Account of Property Rights (http://www.daviddfriedman.com/Academic/Property/Property.html)
-  - 2. Checkmate on Blackmail (http://www.overcomingbias.com/2019/02/checkmate-on-blackmail.html)
-  - 3. Blackmail (https://thezvi.wordpress.com/2019/02/19/blackmail/)
-  - 4. Blackmailers are Privateers in the War on Hypocrisy (http://benjaminrosshoffman.com/blackmailers-are-privateers-in-the-war-on-hypocrisy/)
+  - title: A Positive Account of Property Rights
+    link: http://www.daviddfriedman.com/Academic/Property/Property.html
+  - title: Checkmate on Blackmail
+    link: http://www.overcomingbias.com/2019/02/checkmate-on-blackmail.html
+  - Blackmail
+    link: https://thezvi.wordpress.com/2019/02/19/blackmail/
+  - Blackmailers are Privateers in the War on Hypocrisy
+    link: http://benjaminrosshoffman.com/blackmailers-are-privateers-in-the-war-on-hypocrisy/
   
