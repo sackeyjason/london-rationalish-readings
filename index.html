@@ -3,24 +3,27 @@ layout: default
 title: London Rationalish Readings
 ---
 
+<section>
 <p><a href="https://github.com/sackeyjason/london-rationalish-readings">Source</a></p>
-
+</section>
 
 {% for meeting in site.data.list.meetings %}
 <article>
-  <h2>
-    <time datetime="{{ meeting.date | date: "%Y-%m-%d" }}">
-      {{ meeting.date | date: "%Y %B %d" }}
-    </time>
-  </h2>
-  <ol>
-  {% for article in meeting.list %}
-    <li>
-      <h3>{{ article.title }}</h3>
-      <a href="{{ article.link }}">{{ article.link }}</a>
-    </li>
-  {% endfor %}
-  </ol>
+  <section>
+    <h2>
+      <time datetime="{{ meeting.date | date: "%Y-%m-%d" }}">
+        {{ meeting.date | date: "%Y %B %d" }}
+      </time>
+    </h2>
+    <ol>
+    {% for article in meeting.list %}
+      <li>
+        <h3>{{ article.title }}</h3>
+        <a href="{{ article.link }}">{{ article.link }}</a>
+      </li>
+    {% endfor %}
+    </ol>
+  <section>
 </article>
 {% endfor %}
 
