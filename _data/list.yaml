@@ -1,4 +1,12 @@
 meetings:
+- date: 2019.04.28
+  list:
+  - title: Mountains Beyond Mountains and the case against cost effectiveness
+    link: https://acesounderglass.com/2015/09/30/mountains-beyond-mountains-tracy-kidder-and-the-case-against-cost-effectiveness/
+  - title: The Fitness Industry Is Dead
+    link: https://breakingmuscle.com/learn/the-fitness-industry-is-dead
+  - title: Augmenting Long-term Memory
+    link: http://augmentingcognition.com/ltm.html
 - date: 2019.04.07
   list:
   - title: In My Culture
@@ -7,6 +15,7 @@ meetings:
     link: http://benjaminrosshoffman.com/humility-argument-honesty/
   - title: You Should (Probably) Lift Weights 
     link: http://redd.it/9h2jbi
+    # [is this correct syntax?] tags: exercise, weightlifting
 - date: 2019.03.24
   list:
   - title: A Positive Account of Property Rights
