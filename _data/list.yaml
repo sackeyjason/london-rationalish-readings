@@ -1,4 +1,12 @@
 meetings:
+- date: 2019.05.12
+  list:
+  - title: Degrees of freedom
+    link: https://srconstantin.wordpress.com/2019/04/02/degrees-of-freedom/
+  - title: The Vulnerable World Hypothesis
+    link: https://nickbostrom.com/papers/vulnerable.pdf
+  - title: A Critical View of the Agile Manifesto
+    link: https://sdtimes.com/agile/a-critical-view-of-the-agile-manifesto/
 - date: 2019.04.28
   list:
   - title: Mountains Beyond Mountains and the case against cost effectiveness
