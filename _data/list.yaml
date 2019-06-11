@@ -1,4 +1,12 @@
 meetings:
+- date: 2019.06.23
+  list:
+  - title: You Have About Five Words
+    link: https://www.greaterwrong.com/posts/4ZvJab25tDebB8FGE/you-have-about-five-words
+  - title: Ads Don't Work That Way
+    link: https://meltingasphalt.com/ads-dont-work-that-way/
+  - title: The Trade Secret: Firms That Promised High-Tech Ransomware Solutions Almost Always Just Pay the Hackers
+    link: https://features.propublica.org/ransomware/ransomware-attack-data-recovery-firms-paying-hackers/
 - date: 2019.06.09
   list:
   - title: Thesis Culture
