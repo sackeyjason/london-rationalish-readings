@@ -6,7 +6,7 @@
 {
   date: {{episode.date | date: "%Y %B %d"}},
   list: {{episode.list | jsonify}}  
-}
+}{% if forloop.last == false %},{% endif %}
 {% endfor %}
 ]
 
