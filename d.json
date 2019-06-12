@@ -1,6 +1,12 @@
 ---
 
 ---
-
-{{ site.data.list.meetings | jsonify }}
+[
+{% for episode in site.data.list.meetings %}
+{
+  date: {{episode.date | date: "%Y %B %d"}},
+  list: {{episode.list | jsonify}}  
+}
+{% endfor %}
+]
 
