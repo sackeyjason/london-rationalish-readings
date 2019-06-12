@@ -1,0 +1,6 @@
+---
+
+---
+
+{{ site.data.list.meetings | jsonify }}
+
