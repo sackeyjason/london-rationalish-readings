@@ -14,7 +14,7 @@ layout: nil
         <atom:link href="{{ url }}feed.xml" rel="self" type="application/rss+xml"/>
         
         {% for post in site.data.list.meetings %}
-	{% assign m_date = meeting.date | date: "%Y-%m-%d" %}
+	{% assign m_date = post.date | date: "%Y-%m-%d" %}
         <item>
                 <title>{{ post.date | date: "%Y %B %d" }}</title>
                 <description><![CDATA[<ol>{% for article in post.list %}<li>{{ article.title }}<br/><a href="{{ article.link }}">{{ article.link}}</a>{% endfor %}</ol>]]></description>
