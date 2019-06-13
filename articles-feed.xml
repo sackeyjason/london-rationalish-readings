@@ -18,7 +18,7 @@ layout: nil
         <item>
                 <title>{{ article.title | escape }}</title>
                 <link>{{ article.link }}</link>
-		<description><![CDATA[<a href="http://sackeyjason.github.io/london-rationalish-readings/#m{{ post.date | date:"%Y-%m-%d"}}">{{ post.date | date: "%Y %B %d" }} meeting.</a>]]</description>
+		<description><![CDATA[<a href="http://sackeyjason.github.io/london-rationalish-readings/#m{{ post.date | date:"%Y-%m-%d"}}">{{ post.date | date: "%Y %B %d" }} meeting.</a>]]></description>
         </item>
         {% endfor %}
         {% endfor %}
