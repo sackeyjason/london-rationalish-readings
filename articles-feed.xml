@@ -16,7 +16,7 @@ layout: nil
         {% for post in site.data.list.meetings %}
 	{% for article in post.list %}
         <item>
-                <title>{{ article.title }}</title>
+                <title>{{ article.title | escape }}</title>
                 <link>{{ article.link }}</link>
         </item>
         {% endfor %}
