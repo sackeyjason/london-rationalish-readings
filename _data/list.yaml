@@ -1,4 +1,12 @@
 meetings:
+- date: 2019.07.07
+  list:
+  - title: Separation of Concerns
+    link: https://www.greaterwrong.com/posts/o6GS3JoWKeuuvBPSK/separation-of-concerns
+  - title: "It’s 2059, and the Rich Kids Are Still Winning"
+    link: https://www.nytimes.com/2019/05/27/opinion/ted-chiang-future-genetic-engineering.html
+  - title: "No, it’s not The Incentives—it’s you"
+    link: https://www.talyarkoni.org/blog/2018/10/02/no-its-not-the-incentives-its-you/
 - date: 2019.06.23
   list:
   - title: You Have About Five Words
