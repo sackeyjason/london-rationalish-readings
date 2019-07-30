@@ -30,23 +30,21 @@ section {
   min-height: calc(10rem + 8vw);
   background-size: cover;
   background-attachment: fixed;
-  padding: 1rem 0;
   background-position: left center;
   position: relative;
   font-size: 1.2rem;
   font-weight: bold;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
 }
 .site-header > div {
-  background: rgba(255, 255, 255, 0.8);
   display: flex;
+  flex-grow: 1;
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
 }
 h1 {
   font-size: 40px;
