@@ -25,6 +25,32 @@ section {
   margin-right: auto;
   padding: 0 2rem;
 }
+.site-header {
+  background: url('map.jpg');
+  min-height: calc(10rem + 8vw);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1rem 0;
+  background-position: left center;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.site-header > div {
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+h1 {
+  font-size: 40px;
+}
 article {
   padding: 1rem 0;
   border-top: dashed 1px #ccc;
@@ -50,9 +76,14 @@ a {
 </style>
 </head>
 <body>
-<section>
-  <h1>{{ page.title }}</h1>
-</section>
+  
+<header>
+<div>
+  <section>
+    <h1>{{ page.title }}</h1>
+  </section>
+</div>
+</header>
 
 <main>
 {{ content }}
