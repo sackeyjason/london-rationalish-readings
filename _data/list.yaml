@@ -1,7 +1,17 @@
 meetings:
+- date: 2020.01.19
+  list:
+  - title: "Readings TBA - hosting by The Sense-Maker Workshop"
+    link: https://sensemakerworkshop.co.uk/
+- date: 2020.01.05
+  list:
+  - title: "Ethics and Actuaries"
+    link: https://magic-maths-money.blogspot.com/2019/05/ethics-and-actuaries-issues-and.html
+  - title: "The Lesson of Bretton Woods"
+    link: https://www.bloomberg.com/opinion/articles/2019-07-23/bretton-woods-75th-anniversary-expect-the-unexpected
+  - title: "How Millennials Became The Burnout Generation"
+    link: https://www.buzzfeednews.com/article/annehelenpetersen/millennials-burnout-generation-debt-work
 - date: 2019.12.08
-  fb_list: https://www.facebook.com/groups/londonrationalish/permalink/2406381489471910/
-  fb_event: https://www.facebook.com/events/439298840349275/
   list:
   - title: "Scott and Scurvy"
     link: https://idlewords.com/2010/03/scott_and_scurvy.htm
