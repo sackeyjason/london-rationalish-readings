@@ -1,8 +1,13 @@
 meetings:
 - date: 2020.01.19
+  venue: https://sensemakerworkshop.co.uk/
   list:
-  - title: "Readings TBA - hosting by The Sense-Maker Workshop"
-    link: https://sensemakerworkshop.co.uk/
+  - title: "Book Review: Impro by Keith Johnstone"
+    link: http://theoryengine.org/mental-health/book-review-impro-by-keith-johnstone/
+  - title: "The Lesson to Unlearn"
+    link: http://paulgraham.com/lesson.html
+  - title: "Approval Extraction Advertised as Production"
+    link: https://www.greaterwrong.com/posts/ypXHnS3vWeDRmDsK9/approval-extraction-advertised-as-production
 - date: 2020.01.05
   list:
   - title: "Ethics and Actuaries"
