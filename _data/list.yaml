@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.02.02
+  list:
+  - title: "Book Review: Design Principles of Biological Circuits"
+    link: https://www.greaterwrong.com/posts/bNXdnRTpSXk9p4zmi/book-review-design-principles-of-biological-circuits
+  - title: "GPT-2 As Step Toward General Intelligence"
+    link: https://slatestarcodex.com/2019/02/19/gpt-2-as-step-toward-general-intelligence/
+  - title: "Is Rationalist Self-Improvement Real?"
+    link: https://www.greaterwrong.com/posts/8xLtE3BwgegJ7WBbf/is-rationalist-self-improvement-real
 - date: 2020.01.19
   venue: https://sensemakerworkshop.co.uk/
   list:
