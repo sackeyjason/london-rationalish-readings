@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.02.16
+  list:
+  - title: "Iron: From mythical to mundane"
+    link: https://rootsofprogress.org/iron-from-mythical-to-mundane
+  - title: "The Tale of Alice Almost: Strategies for Dealing With Pretty Good People"
+    link: https://www.greaterwrong.com/posts/QLmSFeFexgTLsNeeA/the-tale-of-alice-almost-strategies-for-dealing-with-pretty
+  - title: "The Relationship Between the Village and the Mission"
+    link: https://www.greaterwrong.com/posts/yGycR8tFA3JJbvApp/the-relationship-between-the-village-and-the-mission
 - date: 2020.02.02
   list:
   - title: "Book Review: Design Principles of Biological Circuits"
