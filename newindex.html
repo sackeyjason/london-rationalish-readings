@@ -1,0 +1,26 @@
+---
+layout: 2020
+title: London Rationalish Readings
+---
+
+{% for meeting in site.data.list.meetings %}
+{% assign m_date = meeting.date | date: "%Y-%m-%d" %}
+<article id="m{{ m_date }}">
+  <section>
+    <h2>
+      <a href="#m{{ m_date }}" class="hash">#</a>
+      <time datetime="{{ m_date }}">
+        {{ meeting.date | date: "%Y %B %d" }}
+      </time>
+    </h2>
+    <ol>
+    {% for article in meeting.list %}
+      <li>
+        <h3>{{ article.title }}</h3>
+        <a href="{{ article.link }}">{{ article.link }}</a>
+      </li>
+    {% endfor %}
+    </ol>
+  </section>
+</article>
+{% endfor %}
