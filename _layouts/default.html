@@ -19,7 +19,8 @@ html {
 body {
   margin: 0;
 }
-section {
+section,
+.container {
   max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
@@ -100,6 +101,13 @@ a {
 <main>
 {{ content }}
 </main>
+  
+<footer class="container">
+  <p>Page last updated:
+    <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time>
+  </p>
+  <a href="#">⬆️ top</a>
+</footer>
 
 </body>
 </html>
