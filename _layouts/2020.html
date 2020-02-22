@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>LRR</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" href="https://sackeyjason.github.io/london-rationalish-readings/feed.xml" />
+<link rel="alternate" type="application/rss+xml" href="https://sackeyjason.github.io/london-rationalish-readings/articles-feed.xml" />
+<style>
+*, *::before, *::after {
+  box-sizing: border-box
+}
+html {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height: 1.4;
+}
+body { margin: 0 }
+.container {
+  max-width: 58rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+.p1 { padding: 1rem }
+a {
+  color: #06C;
+  word-break: break-word;
+}
+@media (min-width: 600px) {
+  .grid-row {
+    display: flex;
+    flex-direction: row;
+  }
+  aside {
+    width: 200px;
+  }
+}
+</style>
+</head>
+<body>
+  
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+
+<div class="grid">
+  <div class="grid-row">
+    <aside>
+      <p>Essays, blog posts, articles, and stories chosen for discussion by the
+        <a href="https://www.facebook.com/groups/londonrationalish/">London Rationalish group</a>
+      </p>
+      <ul>
+        <li><a href="https://github.com/sackeyjason/london-rationalish-readings">Page source code</a>
+        <li>RSS feeds
+          <ol>
+            <li><a href="./feed.xml">RSS feed</a>
+            <li><a href="./articles-feed.xml">Individual articles</a>
+          </ol>
+        <li><a href="./d.json">JSON</a>
+      </ul>
+      <p>Page last updated:
+        <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time>
+      </p>
+    </aside>
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</div>
+  
+<footer class="container">
+  <p><a href="#">⬆️ top</a>
+</footer>
+
+</body>
+</html>
+
