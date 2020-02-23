@@ -8,6 +8,7 @@
 <link rel="alternate" type="application/rss+xml" title="London Rationalish reading lists" href="https://sackeyjason.github.io/london-rationalish-readings/feed.xml" />
 <link rel="alternate" type="application/rss+xml" title="London Rationalish articles" href="https://sackeyjason.github.io/london-rationalish-readings/articles-feed.xml" />
 <style>
+/* temp */ .hash { display: none }
 *, *::before, *::after {
   box-sizing: border-box
 }
@@ -42,6 +43,11 @@ body { margin: 0 }
 a {
   color: #06C;
   word-break: break-word;
+}
+article:target {
+  background: gold;
+  outline: solid 0.5rem gold;
+  box-shadow: 0 0 0 1rem #ffd70087;
 }
 @media (max-width: 599.9px) {
   html { font-size: 14px }
