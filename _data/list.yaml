@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.03.01
+  list:
+  - title: "The 12 Second Rule (i.e. think before answering) and other Epistemic Norms"
+    link: https://www.greaterwrong.com/posts/7kBWMfeRjXQbfxqHL/the-12-second-rule-i-e-think-before-answering-and-other
+  - title: "Picture Frames, Window Frames and Frameworks"
+    link: https://www.greaterwrong.com/posts/bhSjufKtnPRWqW52h/picture-frames-window-frames-and-frameworks-1
+  - title: "Why introductory chemistry is boring: a long-term historical perspective"
+    link: https://get21stnight.com/2019/12/27/why-introductory-chemistry-is-boring-a-long-term-historical-perspective/
 - date: 2020.02.16
   list:
   - title: "Iron: From mythical to mundane"
