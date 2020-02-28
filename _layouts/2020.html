@@ -18,12 +18,14 @@ html {
 }
 body { margin: 0 }
 .p1 { padding: 1rem }
+.m0 { margin: 0 }
 .container {
   max-width: 58rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
 }
+  .years a + a {}
 .grid-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
@@ -35,6 +37,10 @@ body { margin: 0 }
 .grid-main h3,
 .grid-main ol {
   margin: 0;
+}
+.wide {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 .grid-main li + li {
   margin-top: 0.5rem
