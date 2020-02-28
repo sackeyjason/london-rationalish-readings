@@ -2,7 +2,11 @@
 layout: 2020
 title: London Rationalish Readings
 ---
-
+<div style="grid-column-start: 1; grid-column-end: -1" class="years">
+  <a href="y2018">2020</a>
+  <a href="y2019">2019</a>
+  <a href="y2020">2018</a>
+</div>
 {% assign _year = "0" %}
 {% for meeting in site.data.list.meetings %}
 {% assign m_date = meeting.date | date: "%Y-%m-%d" %}
