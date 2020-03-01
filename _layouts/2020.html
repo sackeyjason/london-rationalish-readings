@@ -59,7 +59,6 @@ article:target {
     grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
     grid-gap: 1rem;
     word-break: break-word;
-    flex-grow: 1;
   }
 }
 </style>
@@ -92,7 +91,7 @@ article:target {
         <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time>
       </p>
     </aside>
-    <main>
+    <main style="flex-grow: 1">
       {{ content }}
     </main>
   </div>
