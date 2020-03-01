@@ -54,6 +54,12 @@ article:target {
     flex-shrink: 0;
     margin-right: 1rem;
   }
+  .sidebar-content {
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 1rem);
+    overflow-y: auto;
+  }
   .grid-main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
@@ -72,6 +78,7 @@ article:target {
 <div class="p1">
   <div class="grid-row">
     <aside class="sidebar">
+      <div class="sidebar-content">
       <p class="m0">Essays, blog posts, articles, and stories chosen for discussion by the
         <a href="https://www.facebook.com/groups/londonrationalish/">London Rationalish group</a>
       </p>
@@ -87,9 +94,10 @@ article:target {
         <li><a href="https://sackeyjason.github.io/london-rationalish-readings/v1.html">Old page layout</a>
           
       </ul>
-      <p>Page last updated:
-        <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time>
-      </p>
+      <p>
+        <small>Page last updated:
+        <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time></small>
+        </p></div>
     </aside>
     <main style="flex-grow: 1">
       {{ content }}
