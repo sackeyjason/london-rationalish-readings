@@ -1,4 +1,13 @@
 meetings:
+- date: 2020.03.29
+  list:
+  - title: "The history of smallpox and the origin of vaccines"
+    link: https://rootsofprogress.org/smallpox-and-vaccines
+  - title: "Meetups as institutions for intellectual progress"
+    link: https://www.greaterwrong.com/posts/TBbPTBdApovxhM7NC/meetups-as-institutions-for-intellectual-progress
+  - title: "Between the Spreadsheets: The management consultant’s guide to love and sex"
+    link: https://www.1843magazine.com/features/between-the-spreadsheets
+    note: context: Jacob is putanumonit author Jacob Falkovich
 - date: 2020.03.15
   list:
   - title: "The 12 Second Rule (i.e. think before answering) and other Epistemic Norms"
@@ -449,4 +458,3 @@ meetings:
     link: http://mindingourway.com/rest-in-motion/
   - title: Politics and the English Language
     link: http://www.orwell.ru/library/essays/politics/english/e_polit
-
