@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.04.12
+  list:
+  - title: "Epistemic standards for “Why did it take so long to invent X?”"
+    link: https://www.greaterwrong.com/posts/DGoK3QeaXFu5Mvxh8/epistemic-standards-for-why-did-it-take-so-long-to-invent-x
+  - title: "Artificial Intelligence Will Do What We Ask. That’s a Problem."
+    link: https://www.quantamagazine.org/artificial-intelligence-will-do-what-we-ask-thats-a-problem-20200130/
+  - title: "Invalidating Imaginary Injury"
+    link: https://medium.com/@ThingMaker/invalidating-imaginary-injury-45e9a265e80
 - date: 2020.03.29
   list:
   - title: "The history of smallpox and the origin of vaccines"
