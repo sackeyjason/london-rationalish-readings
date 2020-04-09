@@ -1,6 +1,7 @@
 ---
 layout: 2020
 title: London Rationalish Readings
+published: true
 ---
 <div class="grid-main">
 <div style="grid-column-start: 1; grid-column-end: -1" class="years wide">
@@ -28,6 +29,7 @@ title: London Rationalish Readings
     <li>
       <h4 class="m0">{{ article.title }}</h4>
       <a href="{{ article.link }}">{{ article.link }}</a>
+      {% if article.note %}<div><small>{{ article.note }}</small></div>{% endif %}
     </li>
   {% endfor %}
   </ol>
