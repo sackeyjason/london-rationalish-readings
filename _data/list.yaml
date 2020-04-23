@@ -1,4 +1,13 @@
 meetings:
+- date: 2020.04.26
+  list:
+  - title: "Social media is the perfect petri dish for bias. The solution is for tech companies to slow us down."
+    link: https://www.vox.com/platform/amp/recode/2019/9/3/20842654/jennifer-eberhardt-biased-social-media-nextdoor-racial-profiling-kara-swisher-recode-decode-podcast
+    note: Podcast with transcript.
+  - title: "Cortés, Pizarro, and Afonso as Precedents for Takeover"
+    link: https://www.greaterwrong.com/posts/ivpKSjM4D6FbqF4pZ/cortes-pizarro-and-afonso-as-precedents-for-takeover
+  - title: "On Liberty vs. Efficiency"
+  	link: http://www.overcomingbias.com/2009/04/on-liberty-vs-efficiency.html
 - date: 2020.04.12
   list:
   - title: "Epistemic standards for “Why did it take so long to invent X?”"
