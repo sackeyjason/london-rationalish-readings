@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.05.10
+  list:
+  - title: Simulacra and Subjectivity
+    link: https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity
+  - title: Negative Feedback and Simulacra
+    link: https://www.greaterwrong.com/posts/Z5wF8mdonsM2AuGgt/negative-feedback-and-simulacra
+  - title: Against Dog Ownership
+    link: https://dormin.org/2020/03/21/against-dog-ownership/
 - date: 2020.04.26
   list:
   - title: "Social media is the perfect petri dish for bias. The solution is for tech companies to slow us down."
