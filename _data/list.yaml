@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.05.24
+  list:
+  - title: "The EMH Aten’t Dead"
+    link: https://www.greaterwrong.com/posts/utySCY9nJt9xGYGGQ/the-emh-aten-t-dead
+  - title: "Ketosis – advantaged or misunderstood state? (Part I)"
+    link: https://peterattiamd.com/ketosis-advantaged-or-misunderstood-state-part-i/
+  - title: "Studies on Slack"
+    link: https://slatestarcodex.com/2020/05/12/studies-on-slack/
 - date: 2020.05.10
   list:
   - title: Simulacra and Subjectivity
