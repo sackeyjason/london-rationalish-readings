@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.06.07
+  list:
+  - title: "What is Rationality?"
+    link: https://atlaspragmatica.com/what-is-rationality/
+  - title: "Book Review: Hoover"
+    link: https://slatestarcodex.com/2020/03/17/book-review-hoover/
+  - title: "The Hierarchy of Requests"
+    link: https://celandine13.livejournal.com/72711.html
 - date: 2020.05.24
   list:
   - title: "The EMH Aten’t Dead"
