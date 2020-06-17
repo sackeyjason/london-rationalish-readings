@@ -4,7 +4,7 @@ function handler(event) {
     if (event.target.matches('button')) {
         switch (event.target.textContent.slice(0, 1)) {
             case 'L':
-                document.querySelector('themeStyle').innerHTML = `html {
+                document.querySelector('#themeStyle').innerHTML = `html {
                     --background: #fff;
                     --color: #000;
                     --link-color: #06c;
@@ -12,7 +12,7 @@ function handler(event) {
                   }`
                 break;
             case 'D':
-                document.querySelector('themeStyle').innerHTML = `html {
+                document.querySelector('#themeStyle').innerHTML = `html {
                     --background: #111;
                     --color: #eee;
                     --link-color: #3d9970;
@@ -20,7 +20,7 @@ function handler(event) {
                   }`
                 break;
             default:
-                document.querySelector('themeStyle').innerHTML = ''
+                document.querySelector('#themeStyle').innerHTML = ''
                 break;
         }
     }
