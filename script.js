@@ -29,11 +29,12 @@ function handler(event) {
         break;
     }
     if (theme) {
-      document.cookie = `theme=${theme}`;
+        document.cookie = `theme=${theme}; Secure`;
     } else {
-      document.cookie =
-        "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        document.cookie =
+        "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; Secure";
     }
+    console.log('theme: ', theme);
     useTheme();
   }
 }
