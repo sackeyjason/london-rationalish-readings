@@ -58,4 +58,5 @@ function init() {
     "Theme <button>Light</button> <button>Dark</button> <button>&times;</button>";
   uiControls.appendChild(controls);
   controls.addEventListener("click", handler);
+  useTheme();
 }
