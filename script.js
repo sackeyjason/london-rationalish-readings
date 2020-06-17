@@ -1,7 +1,7 @@
 let theme =
   document.cookie &&
-  document.cookie.match(/theme=([a-z])/) &&
-  document.cookie.match(/theme=([a-z])/)[1];
+  document.cookie.match(/theme=([a-z]*)/) &&
+  document.cookie.match(/theme=([a-z]*)/)[1];
 const LIGHT_CSS = `html {
     --background: #fff;
     --color: #000;
