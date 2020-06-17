@@ -7,81 +7,9 @@
 <link href="./favicon.ico" rel="icon" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="London Rationalish reading lists" href="https://sackeyjason.github.io/london-rationalish-readings/feed.xml" />
 <link rel="alternate" type="application/rss+xml" title="London Rationalish articles" href="https://sackeyjason.github.io/london-rationalish-readings/articles-feed.xml" />
-<style>
-*, *::before, *::after {
-  box-sizing: border-box
-}
-html {
-  --background: #FFF;
-  --color: #000;
-  --link-color: #06C;
-  --focus-color: #ffd70087;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  line-height: 1.4;
-  background-color: var(--background);
-  color: var(--color);
-}
-body { margin: 0 }
-.p1 { padding: 1rem }
-.m0 { margin: 0 }
-.page-header { background: #3D9970; color: #FFF }
-.years a + a {}
-.year {
-  border-bottom: solid 1px;
-}
-.wide {
-  grid-column-start: 1;
-  grid-column-end: -1;
-}
-.grid-main li + li {
-  margin-top: 0.5rem
-}
-.grid-main h3{ font-size: inherit }
-a {
-  color: var(--link-color);
-  word-break: break-word;
-}
-article:target {
-  background: var(--focus-color);
-  outline: solid 0.5rem var(--focus-color);
-}
-@media (max-width: 599.9px) {
-  html { font-size: 14px }
-  .wide, ol { margin-bottom: 1rem }
-}
-@media (min-width: 600px) {
-  .grid-row {
-    display: flex;
-    flex-direction: row;
-  }
-  .sidebar {
-    width: 200px;
-    flex-shrink: 0;
-    margin-right: 1rem;
-  }
-  .sidebar-content {
-    position: sticky;
-    top: 1rem;
-    max-height: calc(100vh - 1rem);
-    overflow-y: auto;
-  }
-  .grid-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
-    grid-gap: 1rem;
-    word-break: break-word;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --background: #111;
-    --color: #EEE;
-    --link-color: #3D9970;
-    --focus-color: #322;
-  }
-}
-</style>
+<link rel="stylesheet" href="./style2020.css" />
+<script src="./script.js"></script>
+<style id="themeStyle"></style>
 </head>
 <body>
   
@@ -107,8 +35,9 @@ article:target {
         <li><a href="./d.json">JSON</a>
         <li><a href="https://www.reddit.com/r/londonrationalish/">Subreddit [post links and vote]</a>
         <li><a href="https://sackeyjason.github.io/london-rationalish-readings/v1.html">Old page layout</a>
-          
       </ul>
+      <div id="uiControls"></div>
+      <script>init()</script>
       <p>
         <small>Page last updated:
         <time datetime="{{ "now" | date: "%Y-%m-%d %H:%M" }}">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time></small>
