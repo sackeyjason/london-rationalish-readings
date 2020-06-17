@@ -1,28 +1,51 @@
-let theme = undefined;
+let theme = document.cookie && document.cookie.match(/theme=([a-z])/)[1];
+const LIGHT_CSS = `html {
+    --background: #fff;
+    --color: #000;
+    --link-color: #06c;
+    --focus-color: #ffd70087;
+  }`;
+const DARK_CSS = `html {
+    --background: #111;
+    --color: #eee;
+    --link-color: #3d9970;
+    --focus-color: #322;
+  }`;
+if (document.cookie && document.cookie.match)
 
 function handler(event) {
     if (event.target.matches('button')) {
         switch (event.target.textContent.slice(0, 1)) {
             case 'L':
-                document.querySelector('#themeStyle').innerHTML = `html {
-                    --background: #fff;
-                    --color: #000;
-                    --link-color: #06c;
-                    --focus-color: #ffd70087;
-                  }`
+                theme = 'light'
                 break;
             case 'D':
-                document.querySelector('#themeStyle').innerHTML = `html {
-                    --background: #111;
-                    --color: #eee;
-                    --link-color: #3d9970;
-                    --focus-color: #322;
-                  }`
+                theme = 'dark'
                 break;
             default:
-                document.querySelector('#themeStyle').innerHTML = ''
+                theme = null
                 break;
         }
+        if (theme) {
+            document.cookie = `theme=${theme}`;
+        } else {
+            document.cookie = 'theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'
+        }
+        useTheme();
+    }
+}
+
+function useTheme() {
+    switch (theme) {
+        case 'light':
+            themeStyle.innerHTML = LIGHT_CSS;
+            break;
+        case 'dark':
+            themeStyle.innerHTML = DARK_CSS;
+            break;
+        default:
+            themeStyle.innerHTML = '';
+            break;
     }
 }
 
