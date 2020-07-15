@@ -1,4 +1,12 @@
 meetings:
+- data: 2020.07.19
+  list:
+  - title: "Sequence Thinking vs. Cluster Thinking"
+    link: https://blog.givewell.org/2014/06/10/sequence-thinking-vs-cluster-thinking/
+  - title: "The Submarine"
+    link: http://www.paulgraham.com/submarine.html
+  - title: "How to Get Worse at StarCraft II"
+    link: https://illiteracyhasdownsides.com/2020/06/13/how-to-get-worse-at-starcraft-ii/
 - date: 2020.06.21
   list:
   - title: "What to write down when you're reading to learn"
