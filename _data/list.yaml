@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.08.02
+  list:
+  - title: "To Adapt to Tech, We're Heading Into the Shadows"
+    link: https://www.wired.com/story/opinion-to-adapt-to-tech-were-heading-into-the-shadows/
+  - title: "Taxonomic vandalism and the Raymond Hoser problem"
+    link: https://blogs.scientificamerican.com/tetrapod-zoology/taxonomic-vandalism-and-hoser/
+  - title: "Lurking More Before Joining Complex Conversations"
+    link: https://www.greaterwrong.com/posts/sj4mWbeiX3XDJr8ZR/lurking-more-before-joining-complex-conversations
 - date: 2020.07.19
   list:
   - title: "Sequence Thinking vs. Cluster Thinking"
@@ -37,7 +45,7 @@ meetings:
     link: https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity
   - title: Negative Feedback and Simulacra
     link: https://www.greaterwrong.com/posts/Z5wF8mdonsM2AuGgt/negative-feedback-and-simulacra
-  - title: Against Dog Ownership
+  - title: Against Dog Ownership`
     link: https://dormin.org/2020/03/21/against-dog-ownership/
 - date: 2020.04.26
   list:
