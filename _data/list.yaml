@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.08.16
+  list:
+  - title: "Can you keep this confidential? How do you know?"
+    link: https://www.greaterwrong.com/posts/rz73eva3jv267Hy7B/can-you-keep-this-confidential-how-do-you-know
+  - title: "Parameters of privacy"
+    link: https://www.greaterwrong.com/posts/afqz78RTjGB9a7MPe/parameters-of-privacy
+  - title: "On progress and historical change"
+    link: https://www.exurbe.com/on-progress-and-historical-change/
 - date: 2020.08.02
   list:
   - title: "To Adapt to Tech, We're Heading Into the Shadows"
