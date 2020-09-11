@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.09.13
+  list:
+  - title: "Open Problems in Group Rationality"
+    link: https://medium.com/@ThingMaker/open-problems-in-group-rationality-5636440a2cd1
+  - title: "Loneliness and the Paradox of Choice"
+    link: https://www.lesswrong.com/posts/kdYiDBjYRbXQZkTxm/loneliness-and-the-paradox-of-choice
+  - title: "What journalists should know about the atomic bombings"
+    link: http://blog.nuclearsecrecy.com/2020/06/09/what-journalists-should-know-about-the-atomic-bombings/
 - date: 2020.08.30
   list:
   - title: "The new dot com bubble is here: it’s called online advertising"
