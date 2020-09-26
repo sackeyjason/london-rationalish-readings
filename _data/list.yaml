@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.09.27
+  list:
+  - title: "Book Review: Origin Of Consciousness In The Breakdown Of The Bicameral Mind"
+    link: https://slatestarcodex.com/2020/06/01/book-review-origin-of-consciousness-in-the-breakdown-of-the-bicameral-mind/
+  - title: "The Origin of Consciousness Reading Companion Part 1"
+    link: https://putanumonit.com/2020/04/05/the-origin-companion-part-1/
+  - title: "Sex, Lies, and Canaanites"
+    link: https://putanumonit.com/2020/04/18/sex-lies-and-canaanites/
 - date: 2020.09.13
   list:
   - title: "Open Problems in Group Rationality"
@@ -69,7 +77,7 @@ meetings:
     link: https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity
   - title: Negative Feedback and Simulacra
     link: https://www.greaterwrong.com/posts/Z5wF8mdonsM2AuGgt/negative-feedback-and-simulacra
-  - title: Against Dog Ownership`
+  - title: Against Dog Ownership
     link: https://dormin.org/2020/03/21/against-dog-ownership/
 - date: 2020.04.26
   list:
