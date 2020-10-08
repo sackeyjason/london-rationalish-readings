@@ -1,4 +1,12 @@
 meetings:
+- date: 2020.10.11
+  list:
+  - title: "Polio eradication: Current status and challenges"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3893965/
+  - title: "Global Rinderpest Eradication: Lessons Learned and Why Humans Should Celebrate Too"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144172/
+  - title: "Vaccination and the theory of games"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC516577/
 - date: 2020.09.27
   list:
   - title: "Book Review: Origin Of Consciousness In The Breakdown Of The Bicameral Mind"
