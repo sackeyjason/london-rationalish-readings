@@ -1,4 +1,10 @@
 meetings:
+- date: 2020.10.25
+  list:
+  - title: "Liking What You See: A Documentary"
+    link: https://canvas.wayne.edu/courses/102861/files/3959556/download?download_frd=1
+  - title: "Against Boots Theory"
+    link: http://reasonableapproximation.net/2020/09/14/against-boots-theory.html
 - date: 2020.10.11
   list:
   - title: "Polio eradication: Current status and challenges"
