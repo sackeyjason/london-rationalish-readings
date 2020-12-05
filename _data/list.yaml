@@ -1,4 +1,11 @@
 meetings:
+- date: 2020.12.06
+  list:
+  - title: "The view that the scientific process is “red tape,” just a bunch of hoops you need to jump through so you can move on with your life"
+    link: https://statmodeling.stat.columbia.edu/2020/10/05/what-is-the-purpose-of-the-scientific-process-according-to-the-people-who-are-in-charge-of-some-social-science-journals/
+  - title: "Anxiety Is the Dizziness of Freedom"
+    link: https://onezero.medium.com/anxiety-is-the-dizziness-of-freedom-b5ab45cae2a5
+    note: short story but still long by normal standards
 - date: 2020.11.8
   list:
   - title: "Honest Putdowns"
