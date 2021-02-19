@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.02.21
+  list:
+  - title: Naked mole-rats: a case study in biological weirdness
+    link: https://www.lesswrong.com/posts/fDKZZtTMTcGqvHnXd/naked-mole-rats-a-case-study-in-biological-weirdness
+  - title: The Bus Ticket Theory of Genius
+    link: http://paulgraham.com/genius.html
 - date: 2021.02.07
   list:
   - title: "Anti-Aging: State of the Art"
