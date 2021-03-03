@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.03.21
+  list:
+  - title: "Prediction Markets: Tales from the Election"
+    link: https://vitalik.ca/general/2021/02/18/election.html
+  - title: "Motive Ambiguity"
+    link: https://www.greaterwrong.com/posts/L6Ktf952cwdMJnzWm/motive-ambiguity
 - date: 2021.02.21
   list:
   - title: "Naked mole-rats: a case study in biological weirdness"
