@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.04.04
+  list:
+  - title: "Beyond the !Kung"
+    link: https://aeon.co/essays/not-all-early-human-societies-were-small-scale-egalitarian-bands
+  - title: 'Lessons from "The Book of My Life"'
+    link: https://www.greaterwrong.com/posts/9YDk52NPrfq7nqLvd/lessons-from-the-book-of-my-life
 - date: 2021.03.21
   list:
   - title: "Prediction Markets: Tales from the Election"
