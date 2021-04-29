@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.05.02
+  list:
+  - title: "What can we learn from the lunar pandemic that never was?"
+    link: https://aeon.co/essays/what-can-we-learn-from-the-lunar-pandemic-that-never-was
+  - title: "(🔊 podcast) Rationally Speaking: Chris Fraser on \"The Mohists, ancient China's philosopher warriors\""
+    link: http://rationallyspeakingpodcast.org/show/rs-223-chris-fraser-on-the-mohists-ancient-chinas-philosophe.html
 - date: 2021.04.18
   list:
   - title: "Google Antitrust Notes"
