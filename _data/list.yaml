@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.06.06
+  list:
+  - title: "Lena (fiction)"
+    link: https://qntm.org/mmacevedo
+  - title: "Don't sell your soul"
+    link: https://www.lesswrong.com/posts/YtisDHHhpxEh4e7zr/don-t-sell-your-soul
 - date: 2021.05.02
   list:
   - title: "What can we learn from the lunar pandemic that never was?"
