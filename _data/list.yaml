@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.07.11
+  list:
+  - title: "The Social Motte-and-Bailey"
+    link: https://medium.com/@ThingMaker/the-social-motte-and-bailey-b4d87aadbe1
+  - title: "Book review: The Geography of Thought"
+    link: https://www.lesswrong.com/posts/FM5PwzKaXojcktEue/book-review-the-geography-of-thought
 - date: 2021.06.06
   list:
   - title: "Lena (fiction)"
