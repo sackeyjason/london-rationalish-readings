@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.08.08
+  list:
+  - title: "Everything Is Broken"
+    link: https://www.tabletmag.com/sections/news/articles/everything-is-broken
+  - title: "Ontology Of Psychiatric Conditions: Taxometrics"
+    link: https://astralcodexten.substack.com/p/ontology-of-psychiatric-conditions
 - date: 2021.07.11
   list:
   - title: "The Social Motte-and-Bailey"
