@@ -1,4 +1,11 @@
 meetings:
+- date: 2021.09.12
+  list:
+  - title: "Trapped priors as a basic problem of rationality"
+    link: https://www.lesswrong.com/posts/hNqte2p48nqKux3wS/trapped-priors-as-a-basic-problem-of-rationality
+  - title: "Your cheerful price"
+    link: https://www.lesswrong.com/posts/MzKKi7niyEqkBPnyu/your-cheerful-price
+- date: 2021.07.11
 - date: 2021.08.08
   list:
   - title: "Everything Is Broken"
