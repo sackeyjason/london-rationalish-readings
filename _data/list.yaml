@@ -1,4 +1,10 @@
 meetings:
+- date: 2021.11.14
+  list:
+  - title: "Online Regulation of Terrorist and Harmful Content"
+    link: https://www.lawfareblog.com/online-regulation-terrorist-and-harmful-content
+  - title: "Curing insanity with malaria"
+    link: https://www.lesswrong.com/posts/AH3iGfz4ArJnXEEYs/curing-insanity-with-malaria
 - date: 2021.09.12
   list:
   - title: "Trapped priors as a basic problem of rationality"
