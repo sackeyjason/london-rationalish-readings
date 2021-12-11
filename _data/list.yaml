@@ -1,4 +1,12 @@
 meetings:
+- date: 2021.12.12
+  list:
+  - title: "WebMD, And The Tragedy Of Legible Expertise"
+    link: https://astralcodexten.substack.com/p/webmd-and-the-tragedy-of-legible
+  - title: "Why I Am Not In Charge"
+    link: https://www.lesswrong.com/posts/cR7Zfrc4BtnFes46y/why-i-am-not-in-charge
+  - title: "Still Not In Charge"
+    link: https://www.lesswrong.com/posts/BbxHGqhxQ9f6zsNac/still-not-in-charge
 - date: 2021.11.14
   list:
   - title: "Online Regulation of Terrorist and Harmful Content"
