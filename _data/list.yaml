@@ -1,4 +1,10 @@
 meetings:
+- date: 2022.01.08
+  list:
+  - title: "Highlights from The Autobiography of Andrew Carnegie"
+    link: https://rootsofprogress.org/andrew-carnegie-autobiography
+  - title: "Be More Evil"
+    link: https://seekingquestions.blogspot.com/2017/06/be-more-evil.html
 - date: 2021.12.12
   list:
   - title: "WebMD, And The Tragedy Of Legible Expertise"
