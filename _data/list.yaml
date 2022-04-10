@@ -1,4 +1,9 @@
 meetings:
+- date: 2022.04.15
+  list:
+  - title: "Astral Codex Ten Meetup London April 2022"
+    link: "https://lu.ma/ACXLondonApr2022"
+    note: "No readings - just a meetup"
 - date: 2022.02.12
   list:
   - title: "Clearer Thinking with Spencer Greenberg: Preference Falsification and Postmodernism with Michael Vassar (93 minutes)"
