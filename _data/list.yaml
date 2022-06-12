@@ -1,4 +1,10 @@
 meetings:
+- date: 2022.06.12
+  list:
+  - title: '"Taking your environment as object" vs "Being subject to your environment"'
+    link: https://www.lesswrong.com/posts/aGxBbQNuahNrv7wxP/taking-your-environment-as-object-vs-being-subject-to-your
+  - title: "Why the Canadian Tech Scene Doesn’t Work"
+    link: https://alexdanco.com/2021/01/11/why-the-canadian-tech-scene-doesnt-work/
 - date: 2022.04.15
   list:
   - title: "Astral Codex Ten Meetup London April 2022"
