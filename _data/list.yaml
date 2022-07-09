@@ -1,10 +1,11 @@
 meetings:
-- date: 2022.07.09
+- date: 2022.07.10
   list:
   - title: "Self-Integrity and the Drowning Child"
     link: https://www.lesswrong.com/posts/cujpciCqNbawBihhQ/self-integrity-and-the-drowning-child
   - title: "Among the Unvaccinated"
     link: https://walkingtheworld.substack.com/p/among-the-unvaccinated
+    note: "In Lincoln's Inn Fields"
 - date: 2022.06.12
   list:
   - title: '"Taking your environment as object" vs "Being subject to your environment"'
